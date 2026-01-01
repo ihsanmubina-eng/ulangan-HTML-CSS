@@ -1,0 +1,201 @@
+body{background-image: linear-gradient(to right, blue, aqua);}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background: aqua;
+	color: black;
+	display: flex;
+	align-item: center;
+	padding: 0 25px;
+	box-sizing: border-box;
+	z-index: 10;
+	justify-content: center;
+	
+}
+
+.Navbar-link{
+	list-style: none;
+	display: flex;
+	gap: 20px;
+	align-item: center;
+	margin-right: end;
+	
+}
+
+.Navbar-link li a{
+	color: blue;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.9s;
+	background-color: white;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+#content {
+	padding: 80px 20px;
+}
+
+.logo{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: auto;
+	text-shadow: 0 0 10px #fff, 0 0 0 20px  #fff, 0 0 21px  #fff0de;
+	background-color: gray;
+	border-radius: 100%;
+	padding: 10px;
+	align-items: center;
+}
+
+.logo a {
+	text-decoration: none;
+	color: blue;
+}
+
+section{
+	
+	color: white;
+	text-align: center;
+	padding: 60px 20px;
+}
+
+.link_hero{
+	background-color: white;
+	color: blue;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.link_hero:hover{
+	background-color: white;
+	color-text: white;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px solid blue;
+}
+
+#profil{
+	padding: 80px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+	text-align: left;
+}
+
+.text{
+flex: 1;
+color: gray;
+font-weight: bold;	
+}
+
+.muka{
+	flex: 1;
+	text-align: right;
+}
+
+.muka img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.kartu{
+	width: 200px;
+	padding: 10px;
+	border: 1px solid gray;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	overflow: hidden;
+	margin: 50px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.kartu-gambar{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	padding-top; 1px;
+}
+
+.kartu-judul{
+	font-size: 18px;
+	color: black;
+}
+
+.kartu-subjudul{
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	padding: 1px;
+}
+
+.kartu-tombol{
+	background-color: aqua;
+	padding: 10px 20px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.kartu-tombol:hover{
+	background-color: gray;
+}
+
+#Riwayat{
+	padding: 5px;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.paragraf{
+
+	font-weight: bold;
+	color: white;
+}
+
+
+.input-saran{
+	width: 100%;
+	max-width: 300px;
+	padding: 12px 15px;
+	margin: 8px 0;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-size: 16px;
+	outline: none;
+}
+
+.tombol-saran{
+	background-color: gray;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.tombol-saran:hover{
+	background-color: cyan;
+}
+
+footer{
+background-color: white;
+color: black;
+text-align: center;
+padding: 20px;
+font-size: 16px;
+margin-top: 40px;
+}
+
